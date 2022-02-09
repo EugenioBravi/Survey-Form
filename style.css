@@ -1,0 +1,56 @@
+/* Global Setting */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+    color: white;
+}
+body{
+    background-image: url(./img/backgroundWallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+/* Header */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 50px;
+}
+#title{
+    font-size: 28px;
+}
+/* Survey Container */
+.surveyFormContainer{
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+}
+/* Form */
+form{
+    background-color: rgba(37, 41, 88, 0.9);
+    padding: 20px;
+}
+.formBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+input,
+select,
+option{
+    color: black;
+}
+p{
+    padding-bottom: 10px;
+}
+label{
+    margin-bottom: 5px;
+}
+#submit{
+    background-color: chartreuse;
+}
